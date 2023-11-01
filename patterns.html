@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+        .contain{
+            height: 100vh;
+            width: 100%;
+            position: relative;
+            flex-direction: column;
+        }
+        .levels{
+            height: 100vh;
+            width: 100%;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .lev{
+            height: 200px;
+            width: 30%;
+            position: relative;
+            margin-left: 30px;
+            margin-top: 50px;
+            background-color: black;
+            text-align: center;
+        }
+        .lev h2{
+            color: brown;
+            font-size: 28px;
+        }
+        .lev a{
+            text-decoration: none;
+        }
+        .lev img{
+            height: 200px;
+            width: 100%;
+        }
+        .nav
+        {
+        position: fixed;
+        top: 0%;
+        right: 0%;
+        z-index: 1;
+        height: 70px;
+        width: 50%;
+        background-color: rgba(255, 255, 255, 0);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Reem Kufi Ink', sans-serif;
+        }
+.nav a{
+    font-size:30px ;
+    color: rgba(0, 0, 0, 0.668);
+    text-decoration: none;
+}
+.nav a:hover{
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.905);
+    cursor: none;
+}
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="head.html">Menu</a>
+        <a href="levels.html">Levels</a>
+        <a href="rules.html">Rules</a>
+        <a href="">patterns</a>
+    </div>
+    
+    <div class="contain">
+        <h1>LEVELS:</h1>
+        <div class="patterns">
+            <div class="lev">
+                <a href="patA.html">
+                    <img src="projectimg.png" alt="">
+                    <h2>Alphabet A</h2>
+                </a>
+                </div>
+                <div class="lev">
+                    <a href="patB.html">
+                        <img src="projectimg.png" alt="">
+                        <h2>Alphabet B</h2>
+                    </a>
+                </div>
+                <div class="lev">
+                    <a href="patC.html">
+                        <img src="projectimg.png" alt="">
+                        <h2>Alphabet c</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

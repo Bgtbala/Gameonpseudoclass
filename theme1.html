@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <style>
+    .main{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.screen{
+    height: 600px;
+    width: 1200px;
+    background-image: url(https://wallpaperaccess.com/full/3704423.jpg);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.screen1{
+    position:absolute;
+    height: 600px;
+    width: 1200px;
+    z-index: 1;
+    display: flex;
+    align-items: end;
+}
+.pointer{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+
+}
+.pointer img{
+    height: 100px;
+    width: 100px;
+}
+.box{
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+.box:nth-child(27),.box:nth-child(39),.box:nth-child(51),.box:nth-child(63),
+.box:nth-child(28),.box:nth-child(40),.box:nth-child(52),.box:nth-child(64),
+.box:nth-child(70),.box:nth-child(58),.box:nth-child(46),
+.box:nth-child(44),.box:nth-child(56),.box:nth-child(68),
+.box:nth-child(45),.box:nth-child(57),.box:nth-child(69)
+{
+    background-image: linear-gradient(to right,#5c4033,#5c4033,#5c4033,rgb(152, 79, 45),rgb(152, 79, 45),rgb(152, 79, 45),rgb(152, 79, 45),#5c4033,#5c4033,#5c4033);
+}
+.pointer:hover{
+    animation: move 30s linear 1;
+
+}
+@keyframes move{
+    0%{
+        bottom: 0px;
+        left: 0px;
+    }
+    9%{
+        transform: rotate(-90deg);
+    }
+    10%{
+        bottom: 0px;
+        left: 100px;
+    }
+    19%{
+        transform: rotate(-90deg);
+    }
+    21%{
+        transform: rotate(0deg);
+    }
+    20%{
+        bottom: 400px;
+        left: 100px;
+    }
+    29%{
+        transform: rotate(0deg);
+    }
+    30%{
+        bottom: 400px;
+        left: 400px;
+    }
+    31%{
+        transform: rotate(90deg);
+    }
+    39%{
+        transform: rotate(90deg);
+    }
+    40%{
+        bottom: 0px;
+        left: 400px;
+    }
+    41%{
+        transform: rotate(0deg);
+    }
+    49%{
+        transform: rotate(0deg);
+    }
+    50%{
+        bottom: 0px;
+        left: 600px;
+    }
+    51%{
+        transform: rotate(-90deg);
+    }
+    69%{
+        transform:rotate(-90deg) ;
+    }
+    70%{
+        bottom: 300px;
+        left: 600px;
+    }
+    71%{
+        transform: rotate(0deg);
+    }
+    79%{
+        transform: rotate(0deg);
+    }
+    80%{
+        bottom: 300px;
+        left: 1000px;
+    }
+    81%{
+        transform: rotate(90deg);
+    }
+    89%{
+        transform:rotate(90deg) ;
+    }
+    90%{
+        left: 1000px;
+        bottom: 0px;
+    }
+    91%{
+        transform: rotate(0deg);
+    }
+    98%{
+        bottom: 0px;
+        left: 1100px;
+    }
+    100%{
+        bottom: 0px;
+        left: 1100px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="screen1">
+            <div class="pointer"><img src="https://i.pinimg.com/originals/ae/89/c2/ae89c2b34198141f73e42583b55ad2d4.gif" alt=""></div>
+        </div>
+    <div class="screen">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <style>
+        .main{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.screen{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(255, 127, 127);
+    display: flex;
+    align-items: end;
+}
+.pointer{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+
+}
+.pointer:hover{
+    animation: move 30s linear 1;
+}
+@keyframes move {
+    0%{
+        left: 0px;
+        bottom: 0px;
+    }
+    10%{
+        left: 400px;
+        bottom: 0px;
+    }
+    20%{
+        left: 400px;
+        bottom: 400px;
+    }
+    30%{
+        left: 0px;
+        bottom: 400px;
+    }
+    40%{
+        left: 0px;
+        bottom: 100px;
+    }
+    50%{
+        left: 300px;
+        bottom: 100px;
+    }
+    60%{
+        left: 300px;
+        bottom: 300px;
+    }
+    70%{
+        left: 100px;
+        bottom: 300px;
+    }
+    80%{
+        left: 100px;
+        bottom: 200px;
+    }
+    90%{
+        left: 200px;
+        bottom: 200px;
+    }
+    100%{
+        left: 200px;
+        bottom: 200px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="screen">
+        <div class="pointer"></div>
+    </div>
+</div>
+</body>
+</html>

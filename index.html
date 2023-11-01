@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <style>
+        @import url(https://db.onlinewebfonts.com/c/e5a4d30ed666bf579a97f0ce4a5e10d1?family=TFonts);
+        *{
+            font-family: "TFonts";
+        }
+        .console{
+            height: 400px;
+            width: 400px;
+            background-color: transparent;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+            border: 6px rgb(255, 255, 255) double;
+            position: absolute;
+            left: 500px;
+            top: 150px;
+            animation: mov 3s linear infinite;
+        }
+        .inside input{
+            width: 120px;
+            height: 70px;`
+            border: 5px rgb(132, 6, 6) solid;
+            background-color: #ff5c5c;
+            border-radius: 50%;
+            position: relative;
+            bottom: 0px;
+            margin-top: 20px;
+            font-size: 23px;
+            color: rgb(132, 6, 6);
+        }
+        .concircle{
+            position: relative;
+            top: 200px;
+            left: 120px;
+            height: 70px;
+            width: 70px;
+            background-color: rgb(132, 6, 6);
+            border-radius: 100%;
+            border: 4px rgb(255, 255, 255) double;
+        }
+        @keyframes mov{
+            0%{
+                transform: rotate(0deg);
+            }
+            50%{
+                transform: rotate(180deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        .concircle:hover{
+            transform: scale(1.1);
+        }
+        img{
+            display: flex;
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100%;
+        }
+        .main{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            position: relative;
+        }
+        .inside{
+            position: absolute;
+            height: 250px;
+            width: 250px;
+            border-radius: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            top: 250px;
+            left: 580px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+    <img src="https://i.pinimg.com/originals/de/34/12/de3412e3c5d2ed0b11ec8291a28a3db5.gif" alt="">
+    <div class="console">
+        <div class="concircle"></div>
+</div>
+<div class="inside"><a href="levels.html">
+    <input type="button" value="START"></a>
+<a href=""><input type="button" value="RULES"></a> </div>
+</div>
+</body>
+</html>
